@@ -1,17 +1,31 @@
-h1 {
-   color: red;
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
 }
-h2 {
-   color: green;
+
+h1, h2 {
+   text-align: center;
+   color: #333;
 }
-h3 {
-   color: blue;
-   margin: 5px;
-}
-h4 {
-   margin-left: 15px;
-}
+
 .identifiant {
-   display: flex;   
-   align-items: center;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   margin: 20px auto;
+   padding: 20px;
+   width: 300px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.identifiant h4 {
+   margin: 5px 0;
+   color: #555;
+}
+
+.identifiant h3 {
+   margin: 5px 0;
+   color: #000;
 }
